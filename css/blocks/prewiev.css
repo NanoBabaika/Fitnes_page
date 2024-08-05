@@ -1,0 +1,79 @@
+.preview__section-banner {
+    margin-top: 35px;
+    height: 520px;
+    background-image: url(../../img/prewiev__banner.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+.preview__desc {
+    display: flex;
+}
+ 
+.preview__desc-left-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-title {
+    margin-top: 120px;
+    color: rgb(231, 73, 15);    
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px;
+    letter-spacing: 10%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section__subtitle-white {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 93%;
+}
+
+.preview__desc {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 85%;
+}
+
+.preview__desc-right-col {
+    display: block;
+}
+
+.prewiev__rigth-col-img {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.prewev__right-col-decor {
+    width: 50px;
+    height: 50px;
+    background: rgb(231, 73, 15);
+}
+
+.decor-top {
+    position: relative;
+    left: 100%;
+    top: -30%;
+}
+
+.decor-bottom {
+    position: relative;
+    left: 80%;
+    top: -10%;
+}

@@ -1,0 +1,164 @@
+.container__modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.record__wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.modal__card {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 781px;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 150px;
+}
+
+.modal__card-head {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 540px;
+    height: 380px;
+    align-items: center;
+}
+
+
+.modal__card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+ 
+.modal__card-img {
+    width: 540px;
+    height: 379px;
+    object-fit: cover;
+}
+
+.modal__card-closebtn {
+    padding: 5px 9px;
+    width: 44px;
+    min-height: 44px;
+    position: relative;
+    left: 44%;
+    top: -93%;
+    background: rgb(196, 196, 196);
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.modal__card-closebtn:hover {
+    background: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+.modal__form-desc {
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.modal-form {
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.form__block-top {
+    margin-bottom: 0px;
+}
+
+.form__block-bot {
+    margin-top: 0;
+}
+
+/* Закрытие модалки */
+.modal__wrapper  {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__send{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.modal__send-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects__item-btn-close {
+    margin-top: 20px;
+}
+
+
+/* Модалка из секции тренировки */
+.wrapper__modal-training {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(209, 203, 203, 0.8);
+}
+
+
+.modal__training {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    width: 620px;
+    height: 506px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.modal__form-training {
+  padding: 90px 70px;
+}

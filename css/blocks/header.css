@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header__logo {
+    margin-right: 92px;
+}
+
+.header__contacts {
+    margin-right: 149px;
+}
+
+.header__contacts-adress {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contacts-adress-img {
+    margin-right: 5px;
+}
+
+.header__contacts-socials {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(133, 133, 133);
+    width: 170px;
+}
+
+.contacts-socials-img {
+    margin-right: 5px;
+    margin-left: 14px;
+}
+
+.header__contacts-text  {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.ontacts-socials-text {
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__right-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__callback {
+    display: flex;
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header__phone-img {
+    margin-right: 9px;
+}
+
+.header__phone-number {
+    color: rgb(255, 255, 255);        
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__callback-button {
+    width: 183px;
+    height: 44px;
+    background: rgb(231, 73, 15);
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+
+.header__callback-button:hover {
+    background: black;
+    color: rgb(231, 73, 15);
+    border: 1px solid rgb(231, 73, 15);
+    transition: .5s;
+}
+
+.header__menu {
+    display: flex;
+    margin-top: 15px;
+}
+
+.header__menu-item {
+    margin-right: 20px;
+}
+
+.menu__item-link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu__item-link:hover {
+    color: rgb(231, 73, 15);
+    transition: .3s;
+}
