@@ -133,3 +133,31 @@
 }
 
 /* Написать плавный переход между секциями и повесить слой затемнения на картинки с фичами */
+
+
+
+
+@media(max-width:500px) {
+    .projects__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .section__subtitle-black{
+        text-align: center;
+    }
+    .projects__preview-text{
+        text-align: center;
+        width: 100%;
+    }
+    .projects__preview-right-col{
+        display: none;
+    }
+    .projects__list{
+        padding-left: 45px;
+    }
+    .projects_btn-showall{
+        margin-left: 0;
+    }
+}

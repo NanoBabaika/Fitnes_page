@@ -38,3 +38,10 @@
     padding: 20px 20px;
     text-align: center;
 }
+
+
+@media(max-width:500px) {
+    .treners__list{
+        padding-left: 45px;
+    }
+} 
