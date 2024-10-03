@@ -85,13 +85,19 @@
     .preview__desc {
         width: 250px;
         text-align: center;
-        padding-left: 40px;
+        padding-left: 20px;
     }
     .prewiev__rigth-col-img{
         width: 400px;
         margin-top: 0;
         padding-left: 50px;
         margin-bottom: 50px;
+    }
+    .section__subtitle-white{
+        text-align: center;
+        font-size: 24px;
+        width: 80%;
+        padding-left: 60px;
     }
     .prewev__right-col-decor{
         display: none;

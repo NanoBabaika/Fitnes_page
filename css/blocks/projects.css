@@ -144,6 +144,9 @@
         align-items: center;
         padding-left: 20px;
     }
+    .section__subtitle-white {
+        padding-left: 10px;
+    }
     .section__subtitle-black{
         text-align: center;
     }

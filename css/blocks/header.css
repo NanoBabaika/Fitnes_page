@@ -132,6 +132,7 @@
 @media(max-width:500px) {
     .wrapper {
         width: 500px;
+        margin: 0 auto;
     }
     .container {
         width: 500px;
