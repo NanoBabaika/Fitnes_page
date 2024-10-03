@@ -128,6 +128,30 @@
     transition: .3s;
 }
 
+/* Стили для мобильной версии меню */
+.mobile__header-menu--wrapper{
+    display: none;
+}
+
+.burger__btn {
+    width: 24px;
+    height: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger__plank {
+    display: block;
+    background: #fff;
+    height: 4px;
+    border-radius: 10px;
+}
+ 
+.header__menu--mobile {
+    
+}
+
 /* Адаптив */
 @media(max-width:500px) {
     .wrapper {
@@ -144,6 +168,9 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
+    }
+    .mobile__header-menu--wrapper {
+        display: block;
     }
     .header__right-block {
         display: none;
