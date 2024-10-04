@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-}
+ }
 
 .treners__list-item:hover {
     border: 1px solid rgb(231, 73, 15);
@@ -42,6 +42,9 @@
 
 @media(max-width:500px) {
     .treners__list{
-        padding-left: 45px;
+        padding-left: 0px;
+    }
+    .treners__list-item{
+        margin-right: 0;
     }
 } 

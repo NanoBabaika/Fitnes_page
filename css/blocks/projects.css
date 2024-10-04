@@ -160,7 +160,29 @@
     .projects__list{
         padding-left: 45px;
     }
+    .projects__list-item {
+        width: 250px;
+        height: 400px;
+    }
     .projects_btn-showall{
+        margin-top: 50px;
         margin-left: 0;
+        width: 220px;
+        margin-bottom: 60px;
+    }
+    .projects__item-img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .projects__item-title{
+        font-size: 18px;
+    }
+    .projects__item-text{
+        font-size: 12px;
+    }
+    .projects__btn {
+        height: 22px;
+        width: 180px;
     }
 }

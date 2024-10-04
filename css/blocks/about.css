@@ -57,25 +57,36 @@
 
 
 @media(max-width:500px) {
-  
+    .section__about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 35px;
+    }
     .about__info{
         display: flex;
         flex-direction: column;
         align-items: center;    
     }
     .about__left-col {
-        width: 450px;
+        width: 350px;
         margin-bottom: 15px;
     }
 
-    .about__right-col{
+    /* .about__right-col{
         max-width: 450px;    
-    }
+    } */
     .ymaps-2-1-79-map {
-        max-width: 400px;
+        max-width: 350px;
     }
     .map {
         /* padding-left: 30px; */
-        max-width: 400px;
+        max-width: 350px;
     } 
+    .about__item-desc {
+        font-size: 12px;
+    }
+    .about__item{
+        width: 180px;
+    }
 }

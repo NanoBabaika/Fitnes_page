@@ -85,12 +85,13 @@
     .preview__desc {
         width: 250px;
         text-align: center;
-        padding-left: 20px;
+        padding-right: 45%;
     }
     .prewiev__rigth-col-img{
-        width: 400px;
+        width: 350px;
         margin-top: 0;
-        padding-left: 50px;
+        margin-left: 0;
+        padding-left: 40%;
         margin-bottom: 50px;
     }
     .section__subtitle-white{
@@ -101,5 +102,8 @@
     }
     .prewev__right-col-decor{
         display: none;
+    }
+    .preview__desc-right-col{
+        
     }
 }
