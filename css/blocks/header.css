@@ -155,11 +155,10 @@
 /* Адаптив */
 @media(max-width:500px) {
     .wrapper {
-        width: 500px;
         margin: 0 auto;
     }
     .container {
-        width: 500px;
+        width: 450px;
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -170,7 +169,35 @@
         margin-bottom: 50px;
     }
     .mobile__header-menu--wrapper {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        left: 50px;
+        top: -38px;
+    }
+    .header__menu--mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 0px;
+        width: 300px;
+        background: black;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__menu--mobile-active {
+        border: 1px solid rgb(231, 73, 15);
+        height: 350px;
+        transition: .5s;
+    }
+    .header__menu-item--mobile {
+        margin-top: 45px;
+        width: 100%;
+        text-align: center;
+    }
+    .header__callback-button--mobile {
+        margin-top: 25px;
     }
     .header__right-block {
         display: none;

@@ -77,3 +77,23 @@ window.addEventListener('click', function(e) {
         modalTraining.style.display = "none";    
     }
 })
+
+// Меню из мобильной версии 
+// Находим соотв переменные 
+const burgerBtn = document.getElementById('burger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+// Функция проверяет наличие активного класса и если класса нет вешает его. Если класс есть наоборот удаляет
+function closeOpenMenu () {
+    if(mobileMenu.classList.contains('header__menu--mobile-active')){
+        mobileMenu.classList.remove('header__menu--mobile-active');
+    }else {
+        mobileMenu.classList.add('header__menu--mobile-active');
+    }
+}
+
+
+// Обработчик события 
+burgerBtn.addEventListener('click', function() {
+    closeOpenMenu();
+});
