@@ -175,7 +175,7 @@
    } 
    .modal__card {
        width: 100%;
-       height: 100%;
+       height: 500%;
        position: relative;
        left: 0;
        top: 0;

@@ -199,6 +199,7 @@
     }
     .header__callback-button--mobile {
         margin-top: 25px;
+        margin-bottom: 60px;
     }
     .header__right-block {
         display: none;
