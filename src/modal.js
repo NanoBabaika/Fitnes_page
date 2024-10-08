@@ -97,3 +97,12 @@ function closeOpenMenu () {
 burgerBtn.addEventListener('click', function() {
     closeOpenMenu();
 });
+
+// Открытие окна в мобильной версии
+let modalMobile = document.getElementById('mobileModal');
+
+modalMobile.addEventListener('click', function(e){
+    e.preventDefault();    
+    modalRecord.style.display = "block";
+    window.scrollTo({top: 0})
+});
